@@ -1,0 +1,40 @@
+ja:
+  activerecord:
+    models:
+      book: "本"
+    attributes:
+      book:
+        title: "タイトル"
+        memo: "感想文"
+        author: "著者"
+        picture: "画像"
+  books:
+    title: "タイトル"
+    memo: "感想文"
+    author: "著者"
+    picture: "画像"
+    page:
+      index_title: "書籍一覧"
+      new_title: "書籍を追加"
+      edit_title: "書籍を編集"
+    actions:
+      show: "この書籍を表示"
+      new: "書籍を追加"
+      edit: "編集"
+      back: "一覧に戻る"
+      destroy: "この書籍を削除"
+    form:
+      errors:
+        message:
+          one: "%{count}件のエラーにより保存できませんでした"
+          other: "%{count}件のエラーにより保存できませんでした"
+    notices:
+      created: "作成しました"
+      updated: "更新しました"
+      destroyed: "削除しました"
+
+  helpers:
+    submit:
+      book:
+        create: "登録する"
+        update: "更新する"

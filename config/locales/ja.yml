@@ -9,10 +9,6 @@ ja:
         author: "著者"
         picture: "画像"
   books:
-    title: "タイトル"
-    memo: "感想文"
-    author: "著者"
-    picture: "画像"
     page:
       index_title: "書籍一覧"
       new_title: "書籍を追加"
@@ -29,9 +25,9 @@ ja:
           one: "%{count}件のエラーにより保存できませんでした"
           other: "%{count}件のエラーにより保存できませんでした"
     notices:
-      created: "作成しました"
-      updated: "更新しました"
-      destroyed: "削除しました"
+      created: "%{model}を作成しました"
+      updated: "%{model}を更新しました"
+      destroyed: "%{model}を削除しました"
 
   helpers:
     submit:

@@ -38,10 +38,6 @@ en:
         author: "Author"
         picture: "Picture"
   books:
-    title: "Title"
-    memo: "Memo"
-    author: "Author"
-    picture: "Picture"
     page:
       index_title: "Books"
       new_title: "New book"
@@ -58,9 +54,9 @@ en:
           one: "%{count} error prohibited this book from being saved:"
           other: "%{count} errors prohibited this book from being saved:"
     notices:
-      created: "Book was successfully created."
-      updated: "Book was successfully updated."
-      destroyed: "Book was successfully destroyed."
+      created: "%{model} was successfully created."
+      updated: "%{model} was successfully updated."
+      destroyed: "%{model} was successfully destroyed."
 
   helpers:
     submit:

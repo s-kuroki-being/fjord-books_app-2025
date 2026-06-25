@@ -2,12 +2,18 @@ ja:
   activerecord:
     models:
       book: "本"
+      user: "ユーザー"
     attributes:
       book:
         title: "タイトル"
         memo: "感想文"
         author: "著者"
         picture: "画像"
+      user:
+        email: "メールアドレス"
+        postal_code: "郵便番号"
+        address: "住所"
+        profile: "自己紹介文"
   books:
     page:
       index_title: "書籍一覧"
@@ -33,6 +39,7 @@ ja:
   users:
     page:
       index_title: "ユーザー一覧"
+      show_title: "ユーザー詳細"
     actions:
       view_books: "書籍一覧へ"
 

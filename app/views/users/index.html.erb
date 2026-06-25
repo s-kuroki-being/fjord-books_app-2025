@@ -1,0 +1,10 @@
+<%= link_to t('users.actions.view_books'), books_path %>
+<h1><%= t('users.page.index_title') %></h1>
+
+<ul>
+  <% @users.each do |user| %>
+    <li><%= link_to user.email, user_path(user) %></li>
+  <% end %>
+</ul>
+
+<%= paginate @users %>

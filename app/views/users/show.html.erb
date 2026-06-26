@@ -6,4 +6,10 @@
   <p><strong><%= t('activerecord.attributes.user.profile') %>:</strong></p>
   <div><%= simple_format(@user.profile) %></div>
 </div>
+
+<div class="user-edit">
+  <% if user_signed_in? && @user == current_user %>
+      <%= link_to t('users.page.edit_title'), edit_user_registration_path %>
+  <% end %>
+</div>
 <%= link_to t('books.actions.view_users'), users_path %>

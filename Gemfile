@@ -72,6 +72,6 @@ end
 
 gem 'carrierwave'
 gem 'devise'
-gem 'rails-i18n'
 gem 'devise-i18n'
 gem 'kaminari'
+gem 'rails-i18n'

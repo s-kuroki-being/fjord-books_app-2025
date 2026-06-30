@@ -1,4 +1,6 @@
 ja:
+  app:
+    title: "Books App"
   activerecord:
     models:
       book: "本"

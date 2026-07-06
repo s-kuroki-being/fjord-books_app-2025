@@ -15,7 +15,7 @@ ja:
         email: "メールアドレス"
         postal_code: "郵便番号"
         address: "住所"
-        profile: "自己紹介文"
+        self_introduction: "自己紹介文"
   books:
     page:
       index_title: "書籍一覧"

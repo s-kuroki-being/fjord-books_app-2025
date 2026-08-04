@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :users, only: [:index, :show]
   resources :books
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -12,4 +14,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  root to: redirect('/books')
+
+  if Rails.env.development?
+    mount LetterOpenerWeb::Engine, at: "/letter_opener"
+  end
 end
